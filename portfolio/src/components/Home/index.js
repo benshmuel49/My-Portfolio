@@ -1,4 +1,5 @@
  import { useEffect, useState } from 'react';
+import Loader from 'react-loaders';
 import { Link } from 'react-router-dom'
 import LogoTitle from '../../assets/images/bletterpng.png'
 import AnimatedLetters from '../AnimatedLetters';
@@ -42,6 +43,7 @@ useEffect(() => {
     
  
  return(
+    <>
     <div className="container home-page">
         <div className="text-zone">
     <h1>  
@@ -65,6 +67,8 @@ useEffect(() => {
 </div>
 <Logo />
     </div>
+    <Loader type ="pacman"/>
+    </>
  )
  }
 
