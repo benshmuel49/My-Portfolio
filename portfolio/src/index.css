@@ -1,0 +1,29 @@
+ 
+ html{
+  font-size: 62.5%;
+
+ }
+ 
+ body {
+  margin: 0;
+  font: 300 11px/1.4 ,'Helvetica Neue','sans-serif';
+   color: #4444;
+   background: #957d5e;
+   background-repeat: no-repeat;
+   background-size: cover;
+   /* background-image: url('https://wallpaperaccess.com/full/731612.jpg'); */
+   /* background-image: url('https://www.teahub.io/photos/full/290-2904393_blue-lines-4k-material-design-creative-geometric-high.jpg'); */
+   overflow: hidden;
+   display: block;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* @media (max-width: 900px){
+  body{
+    height: fit-content;
+    background-image: url('https://www.teahub.io/photos/full/290-2904393_blue-lines-4k-material-design-creative-geometric-high.jpg');
+    
+  }
+} */
+
