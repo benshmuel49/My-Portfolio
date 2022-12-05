@@ -8,11 +8,12 @@
   margin: 0;
   font: 300 11px/1.4 ,'Helvetica Neue','sans-serif';
    color: #4444;
-   background: #957d5e;
+   /* background: #957d5e; */
    background-repeat: no-repeat;
    background-size: cover;
+   height: 100vh;
    /* background-image: url('https://wallpaperaccess.com/full/731612.jpg'); */
-   /* background-image: url('https://www.teahub.io/photos/full/290-2904393_blue-lines-4k-material-design-creative-geometric-high.jpg'); */
+   background-image: url('https://www.teahub.io/photos/full/290-2904393_blue-lines-4k-material-design-creative-geometric-high.jpg');
    overflow: hidden;
    display: block;
   -webkit-font-smoothing: antialiased;

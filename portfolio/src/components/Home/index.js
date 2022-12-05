@@ -1,20 +1,21 @@
  import { useEffect, useState } from 'react';
 import Loader from 'react-loaders';
 import { Link } from 'react-router-dom'
-import LogoTitle from '../../assets/images/bletterpng.png'
+import LogoTitle from '../../assets/images/yellowB.png'
 import AnimatedLetters from '../AnimatedLetters';
 import'./index.scss';
+import bg from './../../assets/images/bg-pic.png'
 import Logo from './Logo/index'
 
 const Home =()=>{
     const[letterClass,setLetterClass] = useState('text-animate')
     const nameArray = ['e','n']
     const jobArray = [
-    'f',
+    'F',
     'u',
     'l',
     'l',
-    's',
+    'S',
     't',
     'a',
     'c',
@@ -33,7 +34,7 @@ const Home =()=>{
     'p',
     'e',
     'r',
-    '.']
+    ]
 
 useEffect(() => {
     setTimeout(() => {
@@ -65,7 +66,8 @@ useEffect(() => {
         FullStack Developer / MERN Stack : MongoDb , Express.Js , React , Node.Js</h2>
         <Link to='/contact' className='flat-button'>CONACT ME </Link>
 </div>
-<Logo />
+{/* <Logo /> */}
+<img className='draw-bg' src={bg}/>
     </div>
     <Loader type ="pacman"/>
     </>

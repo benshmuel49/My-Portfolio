@@ -2,8 +2,8 @@ import Loader from 'react-loaders'
 import { useState , useEffect,} from 'react'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-
-
+import {MapContainer, Marker, Popup, TileLayer} from 'react-leaflet'
+// import { Wrapper, Status } from "@googlemaps/react-wrapper";
 
 
 const Contact = () => {
@@ -18,6 +18,7 @@ const Contact = () => {
                 <>
         <div className="container contact-page">
         <div className='text-zone'> 
+
     <h1 className='title'>
         <AnimatedLetters
         letterClass={letterClass}
@@ -63,8 +64,38 @@ const Contact = () => {
 
     </div>
 
-    </div>
+   
+   
+    
+   
+    
+    
+    
+    
+    
+    
+    vc cv
+</div>
+<div className='info-map'>
+    Ben Shmuel ,
+    <br/>
+        Israel,
+        <br/>
+        1939 Pointe Lane <br/>
+        Jerusalem <br/>
+        <span>Benshmuel49@gmail.com</span>
 
+</div>
+<div className='map-warp'>
+<MapContainer center={[ 31.771959,35.217018]} zoom={8} h>
+<TileLayer url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png' />
+<Marker position={[ 31.771959,35.217018]}>
+            <Popup>Ben lives here , come over for a cup of coffee </Popup>
+</Marker>
+</MapContainer>
+
+
+</div>
 </div>
 <Loader type='pacman'/>
         </>
