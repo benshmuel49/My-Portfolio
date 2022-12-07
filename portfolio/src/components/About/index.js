@@ -5,6 +5,7 @@ import{ BarLoader }from 'react-spinners'
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCss3, faGitAlt, faHtml5, faJs, faJsSquare, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons'
+import Footer from '../../components/Footer/index.js'
 
 const About = () => {
     const[letterClass,setLetterClass] = useState('text-animate')
@@ -77,6 +78,9 @@ If I need to define myself in one sentence that would be a freindly human
 
     </div>
     {/* <BarLoader color="#36d7b7" /> */}
+ <div className='footer-area'>
+ <Footer/>
+ </div>
 </div>
 <Loader type="pacman"/>
 </>

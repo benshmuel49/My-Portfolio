@@ -6,6 +6,7 @@ import AnimatedLetters from '../AnimatedLetters';
 import'./index.scss';
 import bg from './../../assets/images/bg-pic.png'
 import Logo from './Logo/index'
+import Footer from '../Footer';
 
 const Home =()=>{
     const[letterClass,setLetterClass] = useState('text-animate')
@@ -69,8 +70,12 @@ useEffect(() => {
 {/* <Logo /> */}
 <img className='draw-bg' src={bg}/>
     </div>
+    <div className='home-footer'>  
+<Footer/>
+    </div>
     <Loader type ="pacman"/>
     </>
+   
  )
  }
 

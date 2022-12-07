@@ -109,3 +109,19 @@
     overflow: scroll;
     
 }
+@media screen and (max-width: 1200px){
+    .map-warp{
+        float: none;
+        width: 100%;
+        height: 400px;
+        margin: 0;
+    }
+    .info-map{
+        display: none;
+    }
+}
+
+.footer1{
+    margin-top: 20px;
+    size: 200px;
+}

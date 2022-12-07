@@ -1,4 +1,5 @@
 .home-page{
+  
     .text-zone{
         position: absolute;
         left: 10%;
@@ -8,15 +9,16 @@
         max-height: 90%;
     }
 h1{ 
-    color: white;
-    font-size: 53px;
-    margin:0;
-    font-family: 'Helvetica Neue','sans-serif';
-    font-weight: 400;
+   
+    color: #f6f6f6;
+    font-size: 430%;
+    margin: 0;
+    font-family: sans-serif;
+    font-weight: 600;
 
     &::before{
         content: '<h1>';
-        font-family: 'La Belle Aurore';
+        font-family: sans-serif;
         color: #ffd700;
         font-size: 18px;
         position: absolute;
@@ -27,7 +29,7 @@ h1{
 
     &::after{
         content: '<h1/>';
-        font-family: 'La Belle Aurore';
+        font-family: sans-serif;
         color: #ffd700;
         font-size: 18px;
         position: absolute;
@@ -84,3 +86,68 @@ h2{
     height: 40%;
     margin-top: 25%;
 }
+
+@media screen and (max-width: 1200px) {
+    .tags ,
+    .home-page h1::before
+    .home-page h1::after{
+    display: none;}
+
+    .home-page{
+        .text-zone{
+            position: initial;
+            width: 100%;
+            transform: none;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .flat-button{
+            float: none;
+            display: block;
+            margin: 20px auto 0 auto;
+            width: 125px;
+        }
+
+        // svg logo:
+        // .logo-container{
+        //     position: relative;
+        //     width: 100px;
+        //     height: auto;
+        //     top: 50px;
+        //     right: 0;
+        //     box-sizing: border-box;
+        //     margin: auto;
+        //     svg{
+        //         position: absolute;
+        //         top: auto;
+        //         right: auto;
+        //         bottom: auto;
+        //         left: 0;
+        //         margin: auto;
+
+        //     }
+        // }
+
+        
+
+       .draw-bg {
+            transform: translate;
+            margin-left: 50%;
+            margin-left: 6%;
+            width: 450px;
+            filter: drop-shadow(-4px 8px 12px black);
+            height: fit-content;
+            margin-top: 0%;
+    }}
+}
+.home-footer{
+  visibility: hidden;
+
+    }
+    @media screen and (max-width: 1200px){
+    .home-footer{
+        margin-top: 200px;
+        margin-left: 20%;
+        visibility: visible;
+    
+        }}

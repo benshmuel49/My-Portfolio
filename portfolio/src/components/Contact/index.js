@@ -4,6 +4,7 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 import {MapContainer, Marker, Popup, TileLayer} from 'react-leaflet'
 // import { Wrapper, Status } from "@googlemaps/react-wrapper";
+import Footer from '../../components/Footer/index.js'
 
 
 const Contact = () => {
@@ -70,11 +71,7 @@ const Contact = () => {
    
     
     
-    
-    
-    
-    
-    vc cv
+
 </div>
 <div className='info-map'>
     Ben Shmuel ,
@@ -94,9 +91,10 @@ const Contact = () => {
 </Marker>
 </MapContainer>
 
+</div>
+<Footer />
+</div>
 
-</div>
-</div>
 <Loader type='pacman'/>
         </>
     )
