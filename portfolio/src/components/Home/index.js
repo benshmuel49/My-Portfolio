@@ -1,7 +1,7 @@
  import { useEffect, useState } from 'react';
 import Loader from 'react-loaders';
 import { Link } from 'react-router-dom'
-import LogoTitle from '../../assets/images/yellowB.png'
+import LogoTitle from '../../assets/images/yellowB.webp'
 import AnimatedLetters from '../AnimatedLetters';
 import'./index.scss';
 import bg from './../../assets/images/bg-pic.png'

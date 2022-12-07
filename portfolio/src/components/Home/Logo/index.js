@@ -1,5 +1,5 @@
 import './index.scss';
-import LogoS from '../../../assets/images/bletterpng.png';
+// import LogoS from '../../../assets/images/bletterpng.png';
 import {  useRef} from 'react'
 
 
@@ -15,7 +15,6 @@ const Logo = () => {
             <img ref={solidLogoRef} className='soild-logo' src={LogoS} alt="B"/>
 
 
-         
         </div>
     )
 }

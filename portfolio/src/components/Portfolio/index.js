@@ -3,10 +3,10 @@ import Loader from "react-loaders";
 import { useState , useEffect } from "react";
 import AnimatedLetters from "../AnimatedLetters";
 import './index.scss';
-import management from './../../assets/images/management .png'
-import addoption from './../../assets/images/addption.png'
-import zrara from './../../assets/images/zrara.png'
-import kayak from './../../assets/images/kayak.png'
+import management from './../../assets/images/management-.webp'
+import addoption from './../../assets/images/addption.webp'
+import zrara from './../../assets/images/zrara_1.webp'
+import kayak from './../../assets/images/kayak.webp'
 import Footer from './../Footer/index'
 
 
@@ -44,7 +44,9 @@ const Portfolio = ()=>{
             <h4>
             in that project, I've made use of redux, reactJS, and nodeJs.
             ,MongoDB,CSS , and libraries as : bootstrap, socket, bycrypt .</h4>
-        
+           </p>
+           <p>
+            click the image to discover more
            </p>
            <a target="_blank"
          rel='noreferrer'
@@ -69,7 +71,9 @@ alt="dy"
         in that project, I've made use of redux, reactJS, and nodeJs.
             ,MongoDB,CSS , and libraries as : bootstrap, email.js.</h4>
         </p>
-
+        <p>
+            click the image to discover more
+           </p>
         <a target="_blank"
          rel='noreferrer'
           href='https://github.com/benshmuel49/AdoptionSite'>
@@ -93,7 +97,9 @@ alt="dy"
             ,MongoDB,CSS , and libraries as : bootstrap,bycrypt.
             </h4>
             </p>
-
+            <p>
+            click the image to discover more
+           </p>
             <a target="_blank"
          rel='noreferrer'
           href='https://github.com/benshmuel49/Zrara'>
@@ -118,10 +124,13 @@ alt="dy"
             CSS , and libraries as : bootstrap 
             </h4>
     </p>
-   <a target="_blank"
+    <p>
+            click the image to discover more
+           </p>
+   <a  target="_blank"
          rel='noreferrer'
           href='https://github.com/benshmuel49/Mid-Term-Project' >
-    <img src={kayak} width={490} alt="dy"
+    <img src={kayak} width={490} alt="dy" 
 />
 </a>
     </div>
