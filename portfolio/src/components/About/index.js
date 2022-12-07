@@ -1,10 +1,9 @@
 import './index.scss'
 import AnimatedLetters from '../AnimatedLetters'
 import {Loader} from 'react-loaders'
-import{ BarLoader }from 'react-spinners'
 import { useEffect, useState } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCss3, faGitAlt, faHtml5, faJs, faJsSquare, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faCss3, faGitAlt, faHtml5, faJsSquare, faNodeJs, faReact } from '@fortawesome/free-brands-svg-icons'
 import Footer from '../../components/Footer/index.js'
 
 const About = () => {

@@ -50,6 +50,7 @@ const Portfolio = ()=>{
          rel='noreferrer'
           href='https://github.com/benshmuel49/Final-Project'>
 <img src={management} width={490}
+alt="dy"
 /></a>
 
         </div>
@@ -72,7 +73,7 @@ const Portfolio = ()=>{
         <a target="_blank"
          rel='noreferrer'
           href='https://github.com/benshmuel49/AdoptionSite'>
-        <img src={addoption} width={490}
+        <img src={addoption} width={490} alt="dy"
         /></a>
 
         </div>
@@ -96,7 +97,7 @@ const Portfolio = ()=>{
             <a target="_blank"
          rel='noreferrer'
           href='https://github.com/benshmuel49/Zrara'>
-            <img src={zrara} width={490}
+            <img src={zrara} width={490} alt="dy"
 />           </a>
         </div>
         <div className="project-4">
@@ -120,7 +121,7 @@ const Portfolio = ()=>{
    <a target="_blank"
          rel='noreferrer'
           href='https://github.com/benshmuel49/Mid-Term-Project' >
-    <img src={kayak} width={490} 
+    <img src={kayak} width={490} alt="dy"
 />
 </a>
     </div>

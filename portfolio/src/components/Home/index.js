@@ -5,7 +5,6 @@ import LogoTitle from '../../assets/images/yellowB.png'
 import AnimatedLetters from '../AnimatedLetters';
 import'./index.scss';
 import bg from './../../assets/images/bg-pic.png'
-import Logo from './Logo/index'
 import Footer from '../Footer';
 
 const Home =()=>{
@@ -68,7 +67,7 @@ useEffect(() => {
         <Link to='/contact' className='flat-button'>CONACT ME </Link>
 </div>
 {/* <Logo /> */}
-<img className='draw-bg' src={bg}/>
+<img className='draw-bg' src={bg} alt="dy"/>
     </div>
     <div className='home-footer'>  
 <Footer/>
