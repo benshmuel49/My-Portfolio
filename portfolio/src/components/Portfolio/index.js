@@ -125,6 +125,7 @@ const Portfolio = ()=>{
 </a>
     </div>
     </div>
+    
     <div className="protfolio-footer">
     <Footer/>
     </div>
